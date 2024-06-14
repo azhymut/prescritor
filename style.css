@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #00008B;
+  }
+  
+  h2 {
+    color: #FFA500;
+  }
+  
+  button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #00008B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #FFA500;
+  }
+  
+  .new-button {
+    background-color: #FFA500;
+    color: #00008B;
+  }
+  
+  .new-button:hover {
+    background-color: #00008B;
+    color: #FFA500;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  input, select {
+    width: calc(80% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  form {
+    text-align: left;
+    display: inline-block;
+    width: 80%;
+  }
+  
+  #medications {
+    display: none;
+  }
+  

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adicionar Medicação</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Adicionar Nova Medicação</h1>
+  <form id="addMedicationForm">
+    <label for="diseaseSelect">Doença:</label>
+    <select id="diseaseSelect">
+      <option value="">Escolha uma doença</option>
+    </select>
+    <br>
+    <label for="newDisease">Ou adicione nova doença:</label>
+    <input type="text" id="newDisease" placeholder="Nova Doença" />
+    <br>
+    <label for="medicationName">Medicação:</label>
+    <input type="text" id="medicationName" placeholder="Nome da Medicação" required />
+    <br>
+    <button type="submit">Concluir</button>
+  </form>
+  <script src="new.js"></script>
+</body>
+</html>
